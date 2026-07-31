@@ -1,0 +1,3 @@
+# Keep this directory in version control even when empty.
+# Place stock assets here (overrides, intros, outros, branded watermarks).
+# The pipeline downloads fresh clips from Pexels by default — assets/ is for overrides.

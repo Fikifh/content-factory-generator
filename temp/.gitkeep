@@ -1,0 +1,3 @@
+# Keep this directory in version control even when empty.
+# Intermediate audio/video files are written here during pipeline execution.
+# This folder is .gitignored — only .gitkeep is tracked.

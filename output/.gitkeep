@@ -1,0 +1,3 @@
+# Keep this directory in version control even when empty.
+# Generated videos (.mp4) are written here by the pipeline.
+# This folder is .gitignored — only .gitkeep is tracked.

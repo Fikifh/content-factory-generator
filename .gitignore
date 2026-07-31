@@ -1,0 +1,73 @@
+# ─────────────────────────────────────────────────────────
+# .gitignore for content-factory-generator
+# ─────────────────────────────────────────────────────────
+
+# ── Secrets (CRITICAL)
+.env
+.env.local
+.env.*.local
+.env.development
+.env.staging
+.env.production
+.env.test
+# Keep .env.example tracked (it must be shared)
+!.env.example
+
+# ── Generated output (62MB of video junk — don't commit)
+output/
+temp/
+*.mp4
+*.mp3
+*.wav
+*.mov
+*.avi
+*.mkv
+
+# ── Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.eggs/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+*.egg
+
+# ── Virtual environments
+venv/
+env/
+.venv/
+ENV/
+env.bak/
+
+# ── IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+Thumbs.db
+
+# ── Logs
+*.log
+*.log.*
+logs/
+api_out.log
+
+# ── Build / dist
+build/
+dist/
+*.spec
+
+# ── Other tooling
+.cache/
+.mypy_cache/
+*.pid
+*.lock
